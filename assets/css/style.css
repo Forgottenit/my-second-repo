@@ -1,0 +1,18 @@
+.bg{
+    background:url("../images/istockphoto-1032660462-612x612.jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.logo{
+    display: block;
+    border: 2px solid cornflowerblue;
+    background-color: aliceblue;
+    margin-top: 0;
+    
+}
