@@ -1,4 +1,7 @@
-.bg{
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto&display=swap');
+
+/* background image */
+/* .bg{
     background:url("../images/istockphoto-1032660462-612x612.jpg") no-repeat;
     height: 100%;
     width: 100%;
@@ -7,12 +10,87 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-}
+    /* z-index: -1; */
+/* } */ */
 
 .logo{
-    display: block;
+    display: flex;
     border: 2px solid cornflowerblue;
     background-color: aliceblue;
     margin-top: 0;
+    position: absolute;
     
 }
+
+#menu{
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 0px;
+    position: relative;
+}
+
+li a, .dropbtn {
+    display: flex;
+    background-color: pink;
+    color: rgb(84, 57, 241);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(74, 184, 76);
+  }
+  
+  li.dropdown {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 20px;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #welcome{
+    /* z-index: 1; */
+    /* margin-top: 70px; */
+    /* position: absolute; */
+  }
+
+  #junior{
+    /* position: relative; */
+    font-family: 'Caveat Brush';
+    font-size: 2em;
+    
+    color: rgb(252, 251, 250);
+    height: 900px;
+    width: 100%;
+    background-color: rgb(32, 27, 27);
+    border: 20px ridge rgb(87, 45, 0);
+  }
+
+  #senior{
+    /* position: relative; */
+  }
+
+  #teacher{
+    /* position: relative; */
+  }
+
+  .material-icons.md-100 { font-size: 100px; }
