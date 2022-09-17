@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto&display=swap');
 
 /* background image */
-/* .bg{
+ .bg{
     background:url("../images/istockphoto-1032660462-612x612.jpg") no-repeat;
-    height: 100%;
+    height: 400px;
     width: 100%;
-    margin: 0;
+    margin-top: 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    /* z-index: -1; */
-/* } */ */
+    z-index: -999; 
+}
 
 .logo{
     display: flex;
     border: 2px solid cornflowerblue;
     background-color: aliceblue;
     margin-top: 0;
-    position: absolute;
-    width: auto;
+    flex-wrap: wrap;
+    position: relative;
+    width: 33%;
+    font-family: "Roboto";
+    font-size: large;
 }
 
 #menu{
@@ -28,6 +31,9 @@
     justify-content:flex-end;
     margin-right: 0px;
     position: relative;
+    margin-top: 0px;
+    font-family: "Roboto";
+    font-size: 20px;
 }
 
 li a, .dropbtn {
@@ -68,9 +74,7 @@ li a, .dropbtn {
   }
 
   #welcome{
-    /* z-index: 1; */
-    /* margin-top: 70px; */
-    /* position: absolute; */
+    margin-top: 100px;
   }
 
   #junior{
@@ -85,24 +89,70 @@ li a, .dropbtn {
     border: 20px ridge rgb(87, 45, 0);
   }
 
-  #senior{
-    margin-top: 30px;
+  #notepad {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    display: flex;
+    position:absolute;
+    overflow: hidden;
+    z-index: -999;
+  }
+ .fill{
+  object-fit: fill;
+ }
+
+ #leaving-block, #junior-block{
+  display: flex;
+  justify-content: center;
+  height:60px;
+  color: bisque;
+  background-color: blue;
+  margin: 30px 0;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 25px;
+  
+  
+
+ }
+
+  #leaving{
+    position: relative;
+    
+    margin-left: 200px;
     font-family: 'Caveat brush';
     text-decoration: underline;
     font-size: 2em;
     color: rgb(248, 7, 7);
-    height: auto;
-    width: auto;
-    background-image:url("../images/notepad-1198011.jpg;") no-repeat;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    
   }
 
-  #teacher{
-    /* position: relative; */
-    background-image:url("../images/notepad-1198011.jpg;") no-repeat;
-    height: auto;
+  #leaving-section{
+    margin-top: 50px;
+    height: 100%;
+  }
+
+  /* #teacher-img{
+    
+    background: url("../images/notepad-1198011.jpg") no-repeat center center;
+    position: relative;
+    object-fit: cover;
     width: 100%;
+    height: 100%;
+    
+  } */
+
+
+  #teacher{
+    
+    position: relative;
+    width: 100%;
+    height:750px;
+    /* height: 700px; */
+    
   }
 
   .material-icons.md-100 { 
@@ -110,5 +160,9 @@ li a, .dropbtn {
     font-size: 100px; 
     color: aqua;
     white-space: normal;
+    position: relative;
+    display: block;
     
   }
+
+  
