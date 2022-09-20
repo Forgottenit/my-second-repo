@@ -1,0 +1,65 @@
+.grid-i{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    color: #fbf8f8;
+    border: 2px solid black;
+    background-color: rgb(253, 149, 170);
+}
+.test{animation: in 7s;}
+.test:hover{
+    transition-delay: 1s;
+    background: crimson;
+    background: rgb(211, 182, 188);
+    background: rgb(60, 60, 98);
+    background: rgb(20, 9, 11);
+    background: #91666e;
+    background: rgb(253, 149, 170);
+    transition-duration: 7s;
+    background-image: url(assets/images/istockphoto-1328368631-612x612.jpg);
+    transform: translateY(200px);
+    animation: out 3s;
+    
+    /* text-decoration: double; */
+}
+
+.test2{
+    background-image: url(assets/images/notepad-1198011.jpg);
+    animation: dropdown 3s;
+    animation: in 1s;
+}
+
+.test2:hover{
+
+    animation: dropdown 3s;
+    color: black;
+    transition-delay: 1s;
+    transition-duration: 7s;
+    animation: out 1s;
+    /* background: scroll; */
+    background-image: url(assets/images/istockphoto-1328368631-612x612.jpg);
+}
+
+@keyframes dropdown{
+    from{transform: translateX(-700px);}
+    to{transform: rotateX(0);}
+}
+
+.test3 {
+    animation: in 1s;
+}
+
+.test3:hover {
+    animation: out 1s;
+}
+
+@keyframes in {
+    from   { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes out {
+    0%   { -webkit-transform: rotate(360deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
